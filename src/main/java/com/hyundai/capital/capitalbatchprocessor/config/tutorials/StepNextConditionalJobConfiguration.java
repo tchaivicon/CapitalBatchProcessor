@@ -1,8 +1,7 @@
-package com.hyundai.capital.capitalbatchprocessor.job.tutorials;
+package com.hyundai.capital.capitalbatchprocessor.config.tutorials;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.batch.core.ExitStatus;
 import org.springframework.batch.core.Job;
 import org.springframework.batch.core.Step;
 import org.springframework.batch.core.configuration.annotation.JobBuilderFactory;
@@ -53,7 +52,7 @@ public class StepNextConditionalJobConfiguration {
     public Step conditionalJobStep2(){
         return stepBuilderFactory.get("conditionalsJobStep2")
                 .tasklet((stepContribution, chunkContext) -> {
-                    log.info(">>>>>>>This is stepNextConnditionalJobStep2");
+                    log.info(">>>>>>>This is stepNextConditionalJobStep2");
                     return RepeatStatus.FINISHED;
 
                 }).build();

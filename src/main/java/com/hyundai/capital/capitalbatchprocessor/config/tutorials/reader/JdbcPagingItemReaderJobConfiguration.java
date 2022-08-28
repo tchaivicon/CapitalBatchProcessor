@@ -1,4 +1,4 @@
-package com.hyundai.capital.capitalbatchprocessor.job.tutorials.reader;
+package com.hyundai.capital.capitalbatchprocessor.config.tutorials.reader;
 
 import com.hyundai.capital.capitalbatchprocessor.entity.tutorials.Pay;
 import lombok.RequiredArgsConstructor;

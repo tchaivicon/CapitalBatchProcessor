@@ -1,4 +1,4 @@
-package com.hyundai.capital.capitalbatchprocessor.job.tutorials;
+package com.hyundai.capital.capitalbatchprocessor.config.tutorials;
 
 
 import lombok.RequiredArgsConstructor;
