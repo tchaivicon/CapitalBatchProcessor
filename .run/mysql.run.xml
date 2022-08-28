@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="mysql" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <module name="CapitalBatchProcessor" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="com.hyundai.capital.capitalbatchprocessor.CapitalBatchProcessorApplication" />
+    <option name="ACTIVE_PROFILES" value="mysql" />
+    <option name="PROGRAM_PARAMETERS" value="--job.name=jdbcBathItemWriterJob version=7" />
+    <option name="ALTERNATIVE_JRE_PATH" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

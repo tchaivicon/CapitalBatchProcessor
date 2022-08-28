@@ -37,8 +37,8 @@ public class ProcessorConvertJobConfiguration {
     @Bean(BEAN_PREFIX + "step")
     @JobScope
     public Step step() {
-        return stepBuilderFactory.get(BEAN_PREFIX + "step")
-                .<>
+        return null;//stepBuilderFactory.get(BEAN_PREFIX + "step")
+
     }
 
 }
