@@ -26,3 +26,14 @@ spring:
   config:
     activate:
       on-profile: mysql
+---
+spring:
+  datasource:
+    hikari:
+      jdbc-url: jdbc:oracle:thin:@chae-work.ddns.net:1521/ORCLPDB1
+      username: webUser
+      password: webUserPw
+      driver-class-name: oracle.jdbc.driver.OracleDriver
+  config:
+    activate:
+      on-profile: oracle

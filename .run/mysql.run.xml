@@ -3,7 +3,7 @@
     <module name="CapitalBatchProcessor" />
     <option name="SPRING_BOOT_MAIN_CLASS" value="com.hyundai.capital.capitalbatchprocessor.CapitalBatchProcessorApplication" />
     <option name="ACTIVE_PROFILES" value="mysql" />
-    <option name="PROGRAM_PARAMETERS" value="--job.name=processorCompositeBatch version=10" />
+    <option name="PROGRAM_PARAMETERS" value="--job.name=deciderJob version=10 orderDate=20220810" />
     <option name="ALTERNATIVE_JRE_PATH" />
     <method v="2">
       <option name="Make" enabled="true" />
